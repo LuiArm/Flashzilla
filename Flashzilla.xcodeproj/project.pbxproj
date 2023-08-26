@@ -11,6 +11,8 @@
 		F6E482DA2A986ADE006207CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E482D92A986ADE006207CA /* ContentView.swift */; };
 		F6E482DC2A986ADF006207CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E482DB2A986ADF006207CA /* Assets.xcassets */; };
 		F6E482DF2A986ADF006207CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E482DE2A986ADF006207CA /* Preview Assets.xcassets */; };
+		F6E482E62A99AA34006207CA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E482E52A99AA34006207CA /* Card.swift */; };
+		F6E482E82A99AC90006207CA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E482E72A99AC90006207CA /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F6E482D92A986ADE006207CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6E482DB2A986ADF006207CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6E482DE2A986ADF006207CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6E482E52A99AA34006207CA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F6E482E72A99AC90006207CA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		F6E482D62A986ADE006207CA /* Flashzilla */ = {
 			isa = PBXGroup;
 			children = (
+				F6E482E52A99AA34006207CA /* Card.swift */,
 				F6E482D72A986ADE006207CA /* FlashzillaApp.swift */,
 				F6E482D92A986ADE006207CA /* ContentView.swift */,
 				F6E482DB2A986ADF006207CA /* Assets.xcassets */,
 				F6E482DD2A986ADF006207CA /* Preview Content */,
+				F6E482E72A99AC90006207CA /* CardView.swift */,
 			);
 			path = Flashzilla;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E482DA2A986ADE006207CA /* ContentView.swift in Sources */,
+				F6E482E62A99AA34006207CA /* Card.swift in Sources */,
+				F6E482E82A99AC90006207CA /* CardView.swift in Sources */,
 				F6E482D82A986ADE006207CA /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +282,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +311,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
