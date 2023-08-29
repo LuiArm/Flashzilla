@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F665D4012A9D9B9D005729B4 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665D4002A9D9B9D005729B4 /* EditCards.swift */; };
 		F6E482D82A986ADE006207CA /* FlashzillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E482D72A986ADE006207CA /* FlashzillaApp.swift */; };
 		F6E482DA2A986ADE006207CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E482D92A986ADE006207CA /* ContentView.swift */; };
 		F6E482DC2A986ADF006207CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E482DB2A986ADF006207CA /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F665D4002A9D9B9D005729B4 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		F6E482D42A986ADE006207CA /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E482D72A986ADE006207CA /* FlashzillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaApp.swift; sourceTree = "<group>"; };
 		F6E482D92A986ADE006207CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				F6E482DB2A986ADF006207CA /* Assets.xcassets */,
 				F6E482DD2A986ADF006207CA /* Preview Content */,
 				F6E482E72A99AC90006207CA /* CardView.swift */,
+				F665D4002A9D9B9D005729B4 /* EditCards.swift */,
 			);
 			path = Flashzilla;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				F6E482DA2A986ADE006207CA /* ContentView.swift in Sources */,
 				F6E482E62A99AA34006207CA /* Card.swift in Sources */,
 				F6E482E82A99AC90006207CA /* CardView.swift in Sources */,
+				F665D4012A9D9B9D005729B4 /* EditCards.swift in Sources */,
 				F6E482D82A986ADE006207CA /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
